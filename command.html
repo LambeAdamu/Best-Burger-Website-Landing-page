@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Best Burger" content="Website for the Best Burger and other fast foods in Douala " >
+    <link rel="stylesheet" href="./css/css4.css">
+    <title>Best Burger/about</title>
+</head>
+<body>
+ <header>     
+    <div class="container1">
+      <h1>BEST BURGER</h1>
+      <nav>
+        <b>
+            <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li class="current"><a href="command.html">Place Command</a></li>
+            <li><a href="Signup.html">Signup</a></li>          
+        </ul>
+        </b>
+      </nav>
+    </div>
+  </header>
+  
+  <div>
+        <h1 align="center"><b><u>We Are waiting for your Command</u></b></h1>
+               
+        <form>
+            <div class="bg-img">
+            <fieldset style="border-width: 4px solid black;">
+                <legend><h2>Burgers</h2></legend>       
+                <p align=""><b>Choose Your Drinks:</b><p>
+            
+            <table width="100%">
+    <tr>
+        <td>
+            <div class="container">
+            <div>
+                    <input type="checkbox" name="Burger" value="Normal Burger" onclick="toggleRadio(this)">
+                    <label for="Burger">Normal Burger - 750FCFA</label>       
+            </div>
+            <input type="number" min="0" placeholder="number of Burgers">
+            </div>
+        </td>
+        <td>
+            <div class="nav"><img src="./css/Normal Burger.png" width="200px" height="150px" height="auto"></div><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="container">
+            <div>    
+                <input type="checkbox" name="Burger" value="Cheese Burger" onclick="toggleRadio(this)">
+                <label for="Burger">Cheese Burger - 1000FCFA</label>
+            </div>
+            <input type="number" min="0" placeholder="number of Burgers">
+            </div>
+        </td>
+        <td>
+            <div class="nav"><img src="./css/cheese Burger.png" width="200px" height="150px" height="auto"></div><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+             <div class="container">
+             <div>
+                <input type="checkbox" name="Burger" value="Double Cheese Burger" onclick="toggleRadio(this)">
+                <label for="Burger">Doube Cheese Burger -1500FCFA</label>
+             </div>
+             <input type="number" min="0" placeholder="number of Burgers">
+             </div>  
+        </td>
+        <td>
+            <div class="nav"><img src="./css/Double cheese Burger.png" width="200px" height="150px" height="auto"></div><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="container">
+            <div>
+                <input type="checkbox"  value="Fries" onclick="toggleRadio(this)">
+                <label for="Burger">French Fries - 250FCFA</label>
+             </div>
+             <input type="number" min="0" placeholder="number of French Fries Portions">
+             </div>
+        </td>
+        <td>
+            <div class="nav"><img src="./css/french fries.png" width="200px" height="150px" height="auto"></div><br>
+        </td>
+    </tr>
+</table>        
+                    
+            </fieldset>
+            <br><br>
+            <section>
+                <fieldset>
+                <Legend>Drinks</legend>
+                <p align="center"><b>Choose Your Drinks</b><p>
+                <table width="100%">
+    <tr>
+        <td>
+            <div class="container">
+            <div>
+                    <input type="checkbox" name="folere" value="folere" onclick="toggleRadio(this)">
+                    <label for="Burger">Folere</label>       
+            </div>
+            <input type="number" min="0" placeholder="number of Burgers">
+            </div>
+        </td>
+        <td>
+            <div class="nav"><img src="./css/Normal Burger.png" width="200px" height="150px" height="auto"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="container">
+            <div>    
+                <input type="checkbox" name="Menthe au Lait" value="Menthe au Lait" onclick="toggleRadio(this)">
+                <label for="Burger">Menthe au Lait</label>
+            </div>
+            <input type="number" min="0" placeholder="nombre de Menthes au Lait">
+            </div>
+        </td>
+        <td>
+            <div class="nav"><img src="./css/cheese Burger.png" width="200px" height="150px" height="auto"></div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+             <div class="container">
+             <div>
+                <input type="checkbox" name="Ananas" value="Ananas" onclick="toggleRadio(this)">
+                <label for="Burger">Ananas</label>
+             </div>
+             <input type="number" min="0" placeholder="nombre d'ananas">
+             </div>  
+        </td>
+        <td>
+            <div class="nav"><img src="./css/Double cheese Burger.png" width="200px" height="150px" height="auto"></div>
+        </td>
+    </tr>
+    
+</table>
+                </fieldset>
+            </section>
+            
+            <br><br><br>
+            <div>
+            <label for="comments">Write any special requests you may Like to make if there are any</label>
+            <textarea name="comments" rows="4" placeholder="Enter Comments"></textarea>
+            </div>
+            <br><br>
+            <div>
+            <label for="comments">Quarter/Location</label>
+            <textarea name="comments" rows="4" placeholder="Enter Your Quarter/Location"></textarea>
+            </div>
+            <div style="text-align: center;">
+                 <br> <br> <br>            
+              <button>Place Order</button>
+            </div>
+            
+        </form>
+    </div>
+    <div style="height: 100px;"></div>
+    <footer>
+      <p>&copy; 2025 Best Burger's. All rights reserved.</p>
+  </footer>
+</body>
+</html>
